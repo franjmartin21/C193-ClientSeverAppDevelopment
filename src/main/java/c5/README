@@ -1,0 +1,32 @@
+5- URLs and URIs
+
+5.1- URIs
+
+5.2- The URL Class
+- UrlExample: Shows several ways to construct the Url object
+- ProtocolTester: Shows methods to test the protocols suported by the OS
+- RetrievingDataUrlExample: Shows how to use Url to retrieve data from the URL
+- SourceViewer: It is an example that shows the content of an url passed as param
+- UrlConnectionExample: Shows how to get UrlConnnection from Url object and how to work with UrlConnection
+- ContentGetter: Shows how getContent method can be used
+- UrlSplitter: Shows the usage of the different methods to break the url parts
+- URLEquality: Shows the usage of equals on Url class
+
+5.3- The URI Class
+- URIExample: Shows methods to constract an URI and their different methods to get different parts, change between relative
+              and absolute and compare them
+- URISplitter: Exercise showing how to use URI to decompose an URI in its different parts
+
+5.4- x-www-form-urlencoded
+- EncoderTest shows the use of the class URLEncoder to encode urls in the right format
+- QueryString is a class that uses URLEncoder to encode successive name and value pairs in a Java object.
+- DecoderTest shows the use of the class URLDecoder
+
+5.5- Proxies
+- ProxyExample explains how to use Proxy for a java application and what is the purpose of it
+- LocalProxySelector shows what is LocalProxySelector for and how to use it
+
+5.6- Communicating with Server-Side Programs Through GET
+- DMoz, shows how to use URL, QueryString to get html data from a server
+
+5.7- Accessing Password-Protected Sites

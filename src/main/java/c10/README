@@ -1,0 +1,24 @@
+10- Secure Sockets
+
+10.1- Secure Communications
+
+10.2- Creating Secure Client Sockets
+- CreatingSecureClientSockets is a class that shows how to create secure client sockets to comunicate with a server with SSL
+- HTTPSClient is an example HTTP server that shows how to use it
+
+10.3- Choosing the Cipher Suites
+
+10.4- Event Handlers
+- EventHandlers explains how to get notifications about the handshake between client and server
+
+10.5- Session Management
+- SessionManagement explain how the secure sockets behave by default and how to force handshake for every connection
+
+10.6- Client Mode
+- ClientMode shows how to use sockets that need authentication from the client too when doing the handshake
+
+10.7- Creating Secure Server Sockets
+
+10.8- Creating Secure Server Sockets
+-
+

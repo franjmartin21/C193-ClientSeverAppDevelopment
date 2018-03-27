@@ -1,0 +1,29 @@
+scheme:scheme-specific-part
+
+The syntax of the scheme-specific part depends on the scheme being used. Current schemes include:
+
+data
+Base64-encoded data included directly in a link; see RFC 2397
+
+file
+A file on a local disk
+
+ftp
+An FTP server
+
+http
+A World Wide Web server using the Hypertext Transfer Protocol
+
+mailto
+An email address
+
+magnet
+A resource available for download via peer-to-peer networks such as BitTorrent
+
+telnet
+A connection to a Telnet-based service
+
+urn
+A Uniform Resource Name
+
+In addition, Java makes heavy use of nonstandard custom schemes such as rmi, jar, jndi, and doc for various purposes.

@@ -1,0 +1,38 @@
+7- URLConnections
+
+7.1- Opening URLConnections
+- UrlConnectionExample shows how to retrive the UrlConnection object from URL, and explains UrlConnection
+
+7.2- Reading Data from a Server
+- Shows an example of getting data from URLConnections and shows some theory about the difference with URL object
+
+7.3- Reading the Header
+- EncodingAwareSourceViewer shows how to use the getContentType() method of UrlConnection
+- BinarySaver shows how to use getContentLength() to get content different than text
+- HeaderViewer shows how to query for other pieces of the header like contentEncoding, date, expiration, and lastModified
+- AllHeaders shows how to print all the headers of a response
+
+7.4- Caches
+- CacheControl class shows how to inspect a Cache-control header
+- SimpleCacheRequest, SimpleCacheResponse and MemoryCache show you how to implement cache
+
+7.5- Configuring the Connection
+- UrlPrinter shows methods to configure the connection
+
+7.6- Configuring the Client Request HTTP Header
+
+7.7- Writing Data to a Server
+- WritingDataServerExample shows the basics about how to send data through a POST connection with URLConnections
+- FormPoster is a program that simulates to post a form and the response of the server in html
+
+7.8- Security Considerations for URLConnections
+- SecurityConsiderationsExample shows how to obtain the permissions of a URLConnection
+
+7.9- Guessing MIME Media Types
+- GuessMIMEMediaTypes shows the usage of static methods of URLConnection to guess for MIME type of the response
+
+7.10- HttpURLConnection
+- HttpURLConnectionExample shows the basics about how to use the different HTTP methods with the class HttpURLConnection
+- LastModified shows how to send a HEAD message to get the headers of a path
+- SourceViewer3 shows how to deal with different response codes and response messages
+- ErrorConditionRedirectsProxiesExample Shows material and usage of error conditions redirects and proxies

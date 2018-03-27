@@ -1,0 +1,19 @@
+The syntax of a URL is:
+
+protocol://userInfo@host:port/path?query#fragment
+
+- protocol part can be file, ftp, http, https, magnet, telnet, or various other strings (though not urn).
+
+- The host part of a URL is the name of the server that provides the resource you want. It can be a hostname such as www.oreilly.com or utopia.poly.edu or an IP address, such as 204.148.40.9 or 128.238.3.21.
+
+- The userInfo is optional login information for the server. If present, it contains a username and, rarely, a password
+
+- The port number is also optional. It's not necessary if the service is running on its default port (port 80 for HTTP servers).
+
+- Together, the userInfo, host, and port constitute the authority.
+
+- Path points to a particular resource on the specified server. It often looks like a filesystem path such as /forum/index.php.
+
+- The query string provides additional arguments for the server. It's commonly used only in http URLs, where it contains form data for input to programs running on the server.
+
+- the fragment references a particular part of the remote resource. If the remote resource is HTML, the fragment identifier names an anchor in the HTML document

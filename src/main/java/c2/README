@@ -1,0 +1,9 @@
+2- Streams
+2.1- Output Streams
+-- OutputStreamExample1 and 2 show how to use them
+2.2- Input Streams
+-- InputStreamExample shows the examples presented in the book about how to use this Stream
+2.3- Filter Streams
+-- FilterStreamExample
+2.4- Readers and Writers
+-- ReadersAndWritersExample

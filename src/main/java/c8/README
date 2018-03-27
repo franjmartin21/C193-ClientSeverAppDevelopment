@@ -1,0 +1,22 @@
+8- Sockets for Clients
+
+8.1- Using Sockets
+-- UsingSockets shows how to connect a use sockets through some examples
+-- DaytimeClient and Daytime show how to get the time from time.nist.gov, time also gets the time from time.nist.gov but from a different port
+-- DictClient uses Sockets to get translations between languages
+
+8.2- Constructing and Connecting Sockets
+-- ConstructingConnectingSockets shows the theory about constructing and connecting to sockets
+-- LowPort scanner shows an application that checks the ports in a range of a host to see which ones are LISTENING
+
+8.3- Getting Information About a Socket
+--GettingInformationSocket shows how to use the different methods of Socket to have information about it
+
+8.4- Setting Socket Options
+-- SettingSocketOptions.java shows different options that can be set in a socket
+
+8.5- Socket Exceptions
+-- SocketExceptions explain the different exceptions that you can encounter when using Socket class
+
+8.6- Sockets in GUI Applications
+--

@@ -1,0 +1,17 @@
+4- Internet Addresses
+
+4.1- The Inet Address Class
+- OReillyByName shows how to create InetAddress with different parameters (url, ip...)
+- IBiblioAliases shows equals function of InetAddress
+- AddressTests and IPcharacteristics shows the is-like methods to check an IP of InetAddress object
+
+4.2- Inet4Address and Inet6Address
+
+4.3- The NetworkInterface Class
+- NetworkInterfaceExample shows
+
+4.4- Some UsefulPrograms
+- SpamCheck shows a program that checks a url to see if the url passed as param is marked as spam
+- Weblog reads every row in a server log file, and prints it replacing the ip with the host name. It finds the host doing a DNS search and prints the line
+- PooledWeblog and Lookup task do the same than Weblog but using the more efficient TaskExecutor, Callable, and Future, to run it in multiple threads
+

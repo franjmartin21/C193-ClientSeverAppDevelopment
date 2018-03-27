@@ -1,0 +1,31 @@
+9- Sockets for Servers
+
+9.1- Using Server Sockets
+- UsingServerSockets shows an example of how to create a server with sockets in Java
+- TimeServer shows the same sever but returning binary instead of String
+- MultithreadedDaytimeServer shows how to create a multithreaded server that does not block to wait until a call finishes to serve the next
+- PooledDaytimeServer uses a pool of threads to prevent against DOS attacks
+- EchoServer shows an example of echo server
+- ClosingServerSockets shows relevant methods to close sockets and query if a server socket is closed
+
+9.2- Logging
+- Logging shows theory about Logging and how to use Logging from standard java classes
+- LoggingDaytimeServer shows a server that uses a log for error and a log for requests
+- logging.properties shows a configuration file for logging
+
+9.3- Constructing Server Sockets
+- ConstructingServerSockets shows theory about constructors of the ServerSocket class
+- LocalPortScanner shows how to take advantage of constructor and binding of sockets to detect which sockets are already used
+
+9.4- Getting Information About a Server Socket
+- GettingInformationServerSocket Shows methods to get information about the server socket
+- RandomPort is a program that creates a ServerSocket bound to a random port and then queries information about what port it was bound to
+
+9.5- Socket Options
+- SocketOptions shows the theory about server socket options.
+
+9.6- HTTP Servers
+- SingleFileHTTPServer shows a http server that just servers a single file
+- Redirector It is just a server to perform redirection to another page
+- JHTTP.java and Request implements a basic HTTP server
+
